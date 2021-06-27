@@ -36,7 +36,7 @@ def find_sentiment(text):
 model=load_model('stock_news_prediction.h5')
 
 app=Flask(__name__)
-@app.route('/')
+@app.route('/',methods=['POST','GET'])
 def trial1():
     return render_template('index.html')
 @app.route('/predict',methods=['POST','GET'])
