@@ -7,7 +7,7 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras import Sequential
-from keras.layers import Dense, LSTM, Dropout, Dense, Activation
+from tensorflow.keras.layers import Dense, LSTM, Dropout, Dense, Activation
 from tensorflow.keras.models import Model,load_model
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sklearn.preprocessing import MinMaxScaler
