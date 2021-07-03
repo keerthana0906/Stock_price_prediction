@@ -1,0 +1,2 @@
+# News Oriented Stock Price Prediction
+The prediction of stock prices in the market has always been an important task. However, due to the market volatility, it is difficult to make the correct prediction solely based on historical stock data. Therefore in this paper, with the analysis of daily news’ impact on stock markets, we identify some key features that could be useful in stock price prediction and propose a deep learning model to capture the dynamics of stock price trend with rich news textual information.
